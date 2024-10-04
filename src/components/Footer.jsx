@@ -25,8 +25,8 @@ const Footer = () => {
                 <div>
                     <p className='text-xl font-medium mb-5'>ENTRE EN CONTACTO</p>
                     <ul className='flex flex-col gap-1 text-gray-600'>
-                        <li>+57 305 375 2168</li>
-                        <li>contact@foreveryou.com</li>
+                        <li>+57-305-375-2168</li>
+                        <li>sebastian.1701811396@ucaldas.edu.co</li>
                     </ul>
                 </div>
             </div>
