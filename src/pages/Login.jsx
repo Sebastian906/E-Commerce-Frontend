@@ -26,7 +26,7 @@ const Login = () => {
                     : <b onClick={()=>setCurrentState('Inicio de Sesión')} className='cursor-pointer text-cyan-700'>Inicie sesión aquí</b>
                 }
             </div>
-            <button className='bg-black text-gray-100 font-light px-12 py-2 mt-4 active:bg-gray-700'>{currentState === 'Inicio de Sesión' ? 'Inicie Sesión' : 'Regístrese'}</button>
+            <button className='bg-black text-gray-100 font-light px-12 py-2 mt-4 hover:bg-gray-700 transition-all active:bg-gray-700'>{currentState === 'Inicio de Sesión' ? 'Inicie Sesión' : 'Regístrese'}</button>
         </form>
     )
 }
