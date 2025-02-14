@@ -39,10 +39,10 @@ const Navbar = () => {
             </ul>
             <div className='flex items-center gap-6'>
                 <img onClick={()=>setShowSearch(true)} src={assets.search_icon} className='w-5 cursor-pointer' alt="" />
-                {/*<Link to='/cart' className='relative'>
+                <Link to='/cart' className='relative'>
                     <img src={assets.cart_icon} className='w-5 min-w-5' alt="" />
                     <p className='absolute right-[-5px] bottom-[-5px] w-4 text-center leading-4 bg-slate-900 text-white aspect-square rounded-full text-[8px]'>{getCartCount()}</p>
-                </Link>*/}
+                </Link>
                 <div className='group relative'>
                     <img onClick={(()=> token ? null : navigate('/login'))} className='w-5 cursor-pointer' src={assets.profile_icon} alt="" />
                     {/** Menu lateral */}
